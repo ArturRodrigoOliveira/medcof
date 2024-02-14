@@ -19,7 +19,10 @@ jobs:
           node-version: 14
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install 
+
+      - name: Instalando faker-brasil
+        run: npm install faker-brasil
 
       - name: Run Cypress Tests
         run: npm run test
