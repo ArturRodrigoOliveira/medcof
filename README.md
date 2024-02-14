@@ -65,5 +65,5 @@ ________________________________________________________________________________
 
 #### **README.md:** arquivo com informações e instruções sobre o projeto
 
-#### **reporter-config** arquivo Json com as configurações para gerar o relatório de execução dos testes
+#### **reporter-config:** arquivo Json com as configurações para gerar o relatório de execução dos testes
  
