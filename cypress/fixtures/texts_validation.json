@@ -1,0 +1,21 @@
+{
+    "titlePage": {
+        "home": "Residência Médica: Provas, Cursos, Extensivos - Grupo MEDCOF",
+        "cbc": "Título CBC [Curso] - Grupo MedCof",
+        "handsOn": "Hands On [Curso] - Grupo MedCof"
+    },
+    "cursos": {
+        "cbc": {
+            "menu": "CBC",
+            "tituloForm": "UM CLIQUE PODE GARANTIR SEU TÍTULO DE ESPECIALISTA",
+            "precoNormal": "De R$7.497,00",
+            "parcelado": "12X de R$499,87",
+            "aVista": "ou R$4.997,00 à vista"
+        },
+        "handsOn": {
+            "menu": "Hands On",
+            "formTitle": "Entre agora na Lista de Espera do Hands-On",
+            "botaoReservar": "RESERVAR MINHA VAGA!"
+        }
+    }
+}

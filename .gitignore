@@ -1,0 +1,10 @@
+#node
+node_modules/*
+
+#cypress
+cypress/videos/*
+cypress/screenshots/*
+cypress/downloads/*
+
+#mocha report
+mochawesome-report/*

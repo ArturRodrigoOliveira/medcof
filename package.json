@@ -1,0 +1,26 @@
+{
+  "name": "medcof-automation-cypress",
+  "version": "1.0.0",
+  "description": "Teste de automação MedCof",
+  "main": "index.js",
+  "scripts": {
+    "e2e": "cypress run",
+    "report": "start mochawesome-report/mochawesome.html",
+    "test": "npm run e2e && npm run report"
+  },
+  "keywords": [],
+  "author": "Artur Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.6.4",
+    "dotenv": "^16.4.2",
+    "faker-brasil": "^1.0.2",
+    "mocha": "^10.3.0"
+  }
+}
