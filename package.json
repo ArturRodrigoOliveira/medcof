@@ -20,6 +20,7 @@
   "dependencies": {
     "cypress-multi-reporters": "^1.6.4",
     "dotenv": "^16.4.2",
+    "faker-br": "^0.4.1",
     "faker-brasil": "^1.0.2",
     "mocha": "^10.3.0"
   }

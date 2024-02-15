@@ -1,9 +1,7 @@
-const SuperFakerBrasil = require('faker-brasil');
-
 class HandsOnPage {
 
     validaHandsOn(title, formTitle, btnReserva) {
-        const faker = new SuperFakerBrasil();
+        const faker = require('faker-br');
 
         cy.title()
             .should('eql', title)
@@ -12,11 +10,11 @@ class HandsOnPage {
         cy.contains('h2', 'Lista de Espera')
             .should('have.text', formTitle)
         cy.get('#form-field-name')
-            .type(faker.fullName())
+            .type(faker.name.findName())
         cy.get('#form-field-email')
-            .type(faker.email())
+            .type(faker.internet.email())
         cy.get('#form-field-whatsapp')
-            .type(faker.cellPhone())
+            .type('11976561234')
         cy.contains('span', `${btnReserva}`)
             .should('be.visible')
     }
