@@ -22,4 +22,13 @@ jobs:
         run: npm install 
 
       - name: Run Cypress Tests
-        run: npm run e2e
+        run: npm run test
+
+      - name: Salvar Relatório
+        run: mkdir -p ${{ github.workspace }}/artifacts && cp -r cypress/reports/mochawesome-report ${{ github.workspace }}/artifacts
+
+      - name: Publicar Relatório como Artefato
+        uses: actions/upload-artifact@v2
+        with:
+          name: mochawesome-report
+          path: ${{ github.workspace }}/artifacts

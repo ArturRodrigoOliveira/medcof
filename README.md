@@ -37,6 +37,8 @@ Instalar as dependências do projeto abrindo o terminal e digitando o comando: n
 ____________________________________________________________________________________________________
 #### **cypress/:** pasta principal do Cypress
 
+#### **.github\workflows:** pasta que contem o arquivo de configuração do github actions
+
 #### **e2e/:** pasta que armazena os arquivos de teste
 
 #### **fixtures/:** pasta para armazenar arquivos com dados para os testes
